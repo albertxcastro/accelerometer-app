@@ -65,3 +65,8 @@ fastlane/test_output
 .expo/
 dist/
 web-build/
+
+# Environment variables
+.env
+.env.*
+!.env.example

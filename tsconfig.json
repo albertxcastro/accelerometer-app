@@ -20,14 +20,14 @@
       "package": "com.albertxcastro.accelerometerapp",
       "config": {
         "googleMaps": {
-          "apiKey": "AIzaSyBn4CYx1seO_ojW8Dt3SHsFYTh28zML484"
+          "apiKey": "@env:GOOGLE_MAPS_API_KEY"
         }
       }
     },
     "ios": {
       "bundleIdentifier": "com.yourcompany.accelerometerapp",
       "config": {
-        "googleMapsApiKey": "YOUR_GOOGLE_MAPS_API_KEY_HERE"
+        "googleMapsApiKey": "@env:GOOGLE_MAPS_API_KEY"
       }
     }
   }
