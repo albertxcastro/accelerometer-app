@@ -70,3 +70,9 @@ web-build/
 .env
 .env.*
 !.env.example
+
+# iOS
+ios/*
+
+# Android
+android/*
